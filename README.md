@@ -29,8 +29,6 @@ A custom ESP32-S3 rocket avionics and GPS telemetry board designed for Taft Rock
   <a href="#license">License</a>
 </p>
 
-<img src="assets/banner.png" alt="Alpha 1 Avionics Banner" width="800"/>
-
 ## Key Features
 
 - **ESP32-S3FH4R2** microcontroller with built-in Wi-Fi and Bluetooth support
