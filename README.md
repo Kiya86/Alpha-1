@@ -1,6 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="#"><img src="assets/logo.png" alt="Alpha 1 Avionics" width="200"></a>
+  <a href="#">
+    <img width="220" height="220" alt="Alpha 1 Avionics Logo" src="https://github.com/user-attachments/assets/c3a05ca5-c952-491d-af0b-322891801b5a" />
+  </a>
   <br>
   Alpha 1 Avionics
   <br>
@@ -14,6 +16,9 @@ A custom ESP32-S3 rocket avionics and GPS telemetry board designed for Taft Rock
 
 ![EasyEDA](https://img.shields.io/badge/EasyEDA-1769FF?style=for-the-badge&logo=easyeda&logoColor=white)
 ![ESP32-S3](https://img.shields.io/badge/ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Taft Rocketry](https://img.shields.io/badge/Taft%20Rocketry-00A86B?style=for-the-badge&logo=rocket&logoColor=white)
+![GPS Telemetry](https://img.shields.io/badge/GPS%20Telemetry-0057FF?style=for-the-badge&logo=satellite&logoColor=white)
+![LoRa 915MHz](https://img.shields.io/badge/LoRa%20915MHz-DC143C?style=for-the-badge&logo=radio&logoColor=white)
 
 </div>
 
@@ -28,7 +33,7 @@ A custom ESP32-S3 rocket avionics and GPS telemetry board designed for Taft Rock
 
 <img src="assets/banner.png" alt="Alpha 1 Avionics Banner" width="800"/>
 
-> **⚠️ Project Status:** Alpha 1 is an active avionics development board for Taft Rocketry. The design is intended for testing, GPS tracking, telemetry, sensor logging, and future high-power rocket flight operations.
+> **⚠️ Project Status:** Alpha 1 is an active avionics development board for Taft Rocketry. The design is intended for testing, GPS tracking, telemetry, sensor logging, recovery support, and future high-power rocket flight operations.
 
 <img src="assets/final.png" alt="Alpha 1 Avionics Render" width="800"/>
 
