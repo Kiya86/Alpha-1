@@ -31,33 +31,28 @@ A custom ESP32-S3 baseed avionics and GPS telementry board designed for Taft Roc
 
 ## Key Features
 
-- **ESP32-S3FH4R2** microcontroller with built-in Wi-Fi and Bluetooth support
-- **SAM-M10Q GNSS module** for GPS-based rocket tracking and recovery support
-- **DL-RFM95-915M LoRa module** for long-range 915 MHz telemetry
-- **BMP390 barometer** for altitude and pressure measurements
-- **H3LIS331DLTR high-g accelerometer** for launch and flight-event detection
-- **AHT20 temperature and humidity sensor** for environmental monitoring
-- **W25Q64 external flash memory** for onboard data storage
-- **USB-C connectivity** for programming, debugging, and power input
-- **XT30 battery input** for reliable rocket power connection
-- **LM61495 buck converter** for efficient main power regulation
-- **AP2114 3.3V LDO** for clean low-voltage power
-- **Buzzer and status LEDs** for recovery, debugging, and system feedback
-- **SMA antenna connector** for external RF antenna support
-- **2.4 GHz ceramic antenna** for ESP32 wireless communication
-- **4-layer PCB design** focused on RF performance, power integrity, and compact avionics integration
+- **ESP32-S3FH4R2** Microcontroller responsible for all logic 
+- **SAM-M10Q GNSS** GPS for recovery and altitude 
+- **DL-RFM95-915M LoRa module** Long-range 915 MHz telemetry (15km+)
+- **BMP390** Altitude and pressure measurements
+- **H3LIS331DLTR** Launch and flight-event events/detection
+- **AHT20** Temperature logging (Not required to use)
+- **W25Q64** Onboard data logging
+- **USB-C** Used programming, debugging, and power input (Diodes to prevent voltage issues)
+- **XT30 battery input** Used for 2s-3s batter input 
+- **LM61495** Steps down battery voltage for ease of use 
+- **AP2114 (3.3V)** Used for 3.3V rail
+- **Buzzer and LEDs** Recovery, debugging, and feedback
 
 ## Purpose
 
-Alpha 1 is designed as a compact rocket avionics and telemetry board for **Taft Rocketry**, a student-led high-power rocketry team created at Taft High School.
+Alpha 1 is designed as a compact avionics and telementry board for **Taft Rocketry**, a student-led high-power rocketry team created at William Howard Taft Charter High School.
 
-Taft Rocketry designs, builds, and launches high-power rockets while developing custom electronics, telemetry systems, recovery systems, and flight computers. Alpha 1 is intended to support GPS tracking, wireless telemetry, sensor logging, and future flight computer development for the team’s rocket projects.
-
-The board combines GPS, LoRa, environmental sensors, high-g motion sensing, onboard memory, USB-C, and robust power regulation into one integrated avionics platform.
+Taft Rocketry designs, builds, and launches high power rockets while developing custom electronics, recovery systems, and flight computers. Alpha 1 is intended to add GPS tracking, telemetry, sensor logging, and future flight computer development for the team’s rocket projects (2 year support).
 
 ## PCB
 
-Designed in **EasyEDA** with attention to RF layout, power management, GPS performance, and sensor placement. The board is built around a compact avionics layout with separate sections for power regulation, processing, telemetry, GPS, and sensors.
+Designed in **EasyEDA** and **KiCad** with ideal sensor placement, RF layout, power matching and performance. The board is seperated into seperate sections for key systems, such as power, telementry, GPS, and sensors. 
 
 The design uses a 4-layer PCB stackup to improve ground return paths, reduce noise, and support cleaner RF routing.
 
@@ -71,31 +66,7 @@ The design uses a 4-layer PCB stackup to improve ground return paths, reduce noi
 
 ### Schematic
 
-<img src="assets/schematic.png" alt="Alpha 1 Schematic" width="800"/>
-
-### PCB Layers
-
-The 4-layer stackup provides better signal integrity, cleaner power distribution, and improved RF performance for the GPS and LoRa systems.
-
-**Layer 1: Top Signal / Components**
-
-<img src="assets/layer_1.png" alt="PCB Layer 1" width="800"/>
-
-**Layer 2: Ground Plane**
-
-<img src="assets/layer_2.png" alt="PCB Layer 2" width="800"/>
-
-**Layer 3: Power Plane / Routing**
-
-<img src="assets/layer_3.png" alt="PCB Layer 3" width="800"/>
-
-**Layer 4: Bottom Signal**
-
-<img src="assets/layer_4.png" alt="PCB Layer 4" width="800"/>
-
-### JLCPCB Order
-
-<img src="assets/jlcpcb.png" alt="JLCPCB Order" width="800"/>
+<img width="1450" height="1351" alt="Schematic_Alpha 1_2026-05-13" src="https://github.com/user-attachments/assets/07074cb2-50fe-4e45-b5c9-9893b1079d48" />
 
 ## Main Components
 
@@ -125,7 +96,6 @@ The team works on:
 - Rocket recovery systems
 - High-power rocket structures
 - Flight testing and data logging
-- Student-led aerospace engineering projects
 
 ## Credits
 
@@ -133,22 +103,7 @@ This project uses:
 
 - [EasyEDA](https://easyeda.com/) for schematic and PCB design
 - [JLCPCB](https://jlcpcb.com/) for PCB fabrication and assembly
-- [Espressif ESP32-S3](https://www.espressif.com/) for the main microcontroller platform
-- Taft Rocketry for project development, testing, and integration
-
-## You may also like...
-
-- Taft Rocketry custom avionics projects
-- Taft Rocketry high-power rocket builds
-- Alpha-series flight computer development
-- GPS and LoRa telemetry systems for student rocketry
 
 ## License
 
 MIT
-
----
-
-> Taft Rocketry &nbsp;&middot;&nbsp;
-> Alpha 1 Avionics &nbsp;&middot;&nbsp;
-> Designed for high-power rocket telemetry, tracking, and flight data logging
