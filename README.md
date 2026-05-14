@@ -16,6 +16,9 @@ A custom ESP32-S3 rocket avionics and GPS telemetry board designed for Taft Rock
 
 ![EasyEDA](https://img.shields.io/badge/EasyEDA-1769FF?style=for-the-badge&logo=easyeda&logoColor=white)
 ![ESP32-S3](https://img.shields.io/badge/ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Taft Rocketry](https://img.shields.io/badge/Taft%20Rocketry-00A86B?style=for-the-badge&logo=rocket&logoColor=white)
+![GPS Telemetry](https://img.shields.io/badge/GPS%20Telemetry-0057FF?style=for-the-badge&logo=satellite&logoColor=white)
+![LoRa 915MHz](https://img.shields.io/badge/LoRa%20915MHz-DC143C?style=for-the-badge&logo=radio&logoColor=white)
 
 </div>
 
@@ -23,6 +26,7 @@ A custom ESP32-S3 rocket avionics and GPS telemetry board designed for Taft Rock
   <a href="#key-features">Key Features</a> •
   <a href="#purpose">Purpose</a> •
   <a href="#pcb">PCB</a> •
+  <a href="#main-components">Main Components</a> •
   <a href="#team">Team</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
@@ -31,8 +35,6 @@ A custom ESP32-S3 rocket avionics and GPS telemetry board designed for Taft Rock
 <img src="assets/banner.png" alt="Alpha 1 Avionics Banner" width="800"/>
 
 > **⚠️ Project Status:** Alpha 1 is an active avionics development board for Taft Rocketry. The design is intended for testing, GPS tracking, telemetry, sensor logging, recovery support, and future high-power rocket flight operations.
-
-<img src="assets/final.png" alt="Alpha 1 Avionics Render" width="800"/>
 
 ## Key Features
 
@@ -66,6 +68,14 @@ Designed in **EasyEDA** with attention to RF layout, power management, GPS perfo
 
 The design uses a 4-layer PCB stackup to improve ground return paths, reduce noise, and support cleaner RF routing.
 
+### Board Top View
+
+<img width="1515" height="743" alt="Alpha 1 PCB Top View" src="https://github.com/user-attachments/assets/3a4739e7-e671-45a3-a877-b64a1aa5b36a" />
+
+### Board Bottom View
+
+<img width="1513" height="743" alt="Alpha 1 PCB Bottom View" src="https://github.com/user-attachments/assets/7aff397e-abfd-4046-901b-121e3f1a70d7" />
+
 ### Schematic
 
 <img src="assets/schematic.png" alt="Alpha 1 Schematic" width="800"/>
@@ -89,14 +99,6 @@ The 4-layer stackup provides better signal integrity, cleaner power distribution
 **Layer 4: Bottom Signal**
 
 <img src="assets/layer_4.png" alt="PCB Layer 4" width="800"/>
-
-**Front:**
-
-<img src="assets/pcb_front.png" alt="PCB Front" width="800"/>
-
-**Back:**
-
-<img src="assets/pcb_back.png" alt="PCB Back" width="800"/>
 
 ### JLCPCB Order
 
