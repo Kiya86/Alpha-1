@@ -9,7 +9,7 @@
 </h1>
 
 <h4 align="center">
-A custom ESP32-S3 rocket avionics and GPS telemetry board designed for Taft Rocketry high-power rocket flights.
+A custom ESP32-S3 baseed avionics and GPS telementry board designed for Taft Rocketry high power flights. 
 </h4>
 
 <div align="center">
