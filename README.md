@@ -9,7 +9,7 @@
 </h1>
 
 <h4 align="center">
-A custom ESP32-S3 baseed avionics and GPS telementry board designed for Taft Rocketry high power flights. 
+A custom ESP32-S3 based avionics and GPS telemetry board designed for Taft Rocketry high power flights. 
 </h4>
 
 <div align="center">
@@ -46,13 +46,13 @@ A custom ESP32-S3 baseed avionics and GPS telementry board designed for Taft Roc
 
 ## Purpose
 
-Alpha 1 is designed as a compact avionics and telementry board for **Taft Rocketry**, a student-led high-power rocketry team created at William Howard Taft Charter High School.
+Alpha 1 is designed as a compact avionics and telemetry board for **Taft Rocketry**, a student-led high-power rocketry team created at William Howard Taft Charter High School.
 
 Taft Rocketry designs, builds, and launches high power rockets while developing custom electronics, recovery systems, and flight computers. Alpha 1 is intended to add GPS tracking, telemetry, sensor logging, and future flight computer development for the team’s rocket projects (2 year support).
 
 ## PCB
 
-Designed in **EasyEDA** and **KiCad** with ideal sensor placement, RF layout, power matching and performance. The board is seperated into seperate sections for key systems, such as power, telementry, GPS, and sensors. 
+Designed in **EasyEDA** and **KiCad** with ideal sensor placement, RF layout, power matching and performance. The board is separated into sections for key systems, such as power, telemetry, GPS, and sensors. 
 
 The design uses a 4-layer PCB stackup to improve ground return paths, reduce noise, and support cleaner RF routing.
 
