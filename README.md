@@ -16,9 +16,6 @@ A custom ESP32-S3 rocket avionics and GPS telemetry board designed for Taft Rock
 
 ![EasyEDA](https://img.shields.io/badge/EasyEDA-1769FF?style=for-the-badge&logo=easyeda&logoColor=white)
 ![ESP32-S3](https://img.shields.io/badge/ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Taft Rocketry](https://img.shields.io/badge/Taft%20Rocketry-00A86B?style=for-the-badge&logo=rocket&logoColor=white)
-![GPS Telemetry](https://img.shields.io/badge/GPS%20Telemetry-0057FF?style=for-the-badge&logo=satellite&logoColor=white)
-![LoRa 915MHz](https://img.shields.io/badge/LoRa%20915MHz-DC143C?style=for-the-badge&logo=radio&logoColor=white)
 
 </div>
 
