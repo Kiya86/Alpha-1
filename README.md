@@ -106,4 +106,4 @@ This project uses:
 
 ## License
 
-MIT
+GNU Affero General Public License v3.0
